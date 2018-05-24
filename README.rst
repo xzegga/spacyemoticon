@@ -1,6 +1,8 @@
 spacyemoticon: emoticon for spaCy
 **************************
 
+This extension was inpired in `spacymoji <https://pypi.org/project/spacymoji/>`_.
+
 `spaCy v2.0 <https://spacy.io/usage/v2>`_ extension and pipeline component
 for adding text emoticon meta data to ``Doc`` objects. Detects text emoticons
 consisting in one or more characters or symbols into one token. The extension 
