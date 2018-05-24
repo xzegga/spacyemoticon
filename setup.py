@@ -12,6 +12,7 @@ def setup_package():
 
     # Read in package meta from about.py
     about_path = root / package_name / 'about.py'
+    print(about_path)
     with about_path.open('r', encoding='utf8') as f:
         about = {}
         exec(f.read(), about)
